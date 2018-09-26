@@ -1,0 +1,143 @@
+/* Space out content a bit */
+body{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: inherit;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.bookmarklists,
+.footer{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom Page Header */
+.header{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer{
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  font-size: 15px;
+}
+.footer .credit{
+  margin-top: -15px;
+  font-size: 12px;
+  color: #333;
+}
+
+
+.container-narrow >hr{
+  margin: 30px 0;
+}
+
+/* Main bookmarkslists message and bookmark button */
+.jumbotron{
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron form label{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Supporting marketing content */
+.bookmarklists {
+  margin: 40px 0;
+}
+.bookmarklists {
+  margin-top: 28px;
+}
+
+.card{
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+
+.card h3{
+  font-size: 16px;
+}
+
+.card a{
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container{
+    max-width: 730px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .bookmarklists,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 560px){
+  .header h3{
+    font-size: 22px;
+  }
+
+  .header,
+  .footer{
+    text-align: center;
+  }
+
+  .footer{
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  .footer .credit{
+    margin-top: -15px;
+    font-size: 12px;
+    color: #333;
+  }
+
+  .btn{
+    font-size: 14px;
+  }
+
+  .jumbotron{
+    font-size: 14px !important;
+    margin-top: 20px;
+  }
+
+  .jumbotron h2{
+    font-size: 30px !important;
+  }
+
+  .form-control{
+    font-size: 12px !important;
+  }
+}
