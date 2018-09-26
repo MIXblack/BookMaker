@@ -10,4 +10,4 @@
 &nbsp;
 
 
-[View Project](https://mixblack.github.io/BookMaker/)
+[View Application](https://mixblack.github.io/BookMaker/)
